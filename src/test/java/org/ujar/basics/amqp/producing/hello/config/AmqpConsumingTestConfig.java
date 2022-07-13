@@ -15,19 +15,19 @@ public class AmqpConsumingTestConfig {
   private final AmqpQueuesProperties queues;
 
   @Bean
-  public SimpleMessageListenerContainer importCountriesListenerContainer(
-      final ConnectionFactory connectionFactory, final MessageListenerAdapter importCountriesListenerAdapter) {
+  public SimpleMessageListenerContainer greeterMessageListenerContainer(
+      final ConnectionFactory connectionFactory, final MessageListenerAdapter greeterMessageListenerAdapter) {
     final var container = new SimpleMessageListenerContainer();
     container.setConnectionFactory(connectionFactory);
     container.setQueueNames(queues.getGreeterQueue());
-    container.setMessageListener(importCountriesListenerAdapter);
+    container.setMessageListener(greeterMessageListenerAdapter);
     container.setAcknowledgeMode(AcknowledgeMode.AUTO);
     container.setDefaultRequeueRejected(false);
     return container;
   }
 
   @Bean
-  public MessageListenerAdapter importCountriesListenerAdapter(final GreetingMessageConsumer consumer) {
+  public MessageListenerAdapter greeterMessageListenerAdapter(final GreetingMessageConsumer consumer) {
     return new MessageListenerAdapter(consumer, "consume");
   }
 }
