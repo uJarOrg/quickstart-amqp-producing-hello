@@ -42,6 +42,11 @@ management :
   info :
     env :
       enabled : true
+  health :
+    livenessstate :
+      enabled : true
+    readinessstate :
+      enabled : true
   server :
     add-application-context-header : true
   endpoints :
