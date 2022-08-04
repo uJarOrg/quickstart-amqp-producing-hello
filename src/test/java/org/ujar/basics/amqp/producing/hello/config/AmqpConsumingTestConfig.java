@@ -11,11 +11,11 @@ import org.ujar.basics.amqp.producing.hello.consumer.GreetingMessageConsumer;
 
 @Configuration
 @RequiredArgsConstructor
-public class AmqpConsumingTestConfig {
+class AmqpConsumingTestConfig {
   private final AmqpQueuesProperties queues;
 
   @Bean
-  public SimpleMessageListenerContainer greeterMessageListenerContainer(
+  SimpleMessageListenerContainer greeterMessageListenerContainer(
       final ConnectionFactory connectionFactory, final MessageListenerAdapter greeterMessageListenerAdapter) {
     final var container = new SimpleMessageListenerContainer();
     container.setConnectionFactory(connectionFactory);
@@ -27,7 +27,7 @@ public class AmqpConsumingTestConfig {
   }
 
   @Bean
-  public MessageListenerAdapter greeterMessageListenerAdapter(final GreetingMessageConsumer consumer) {
+  MessageListenerAdapter greeterMessageListenerAdapter(final GreetingMessageConsumer consumer) {
     return new MessageListenerAdapter(consumer, "consume");
   }
 }
