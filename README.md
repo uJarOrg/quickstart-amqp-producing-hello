@@ -1,7 +1,7 @@
 # Hello, World! - AMQP producer app
 
-[![Build Status](https://drone.ujar.org/api/badges/ujar-org/basics-amqp-producing-hello/status.svg?ref=refs/heads/main)](https://drone.ujar.org/ujar-org/basics-amqp-producing-hello)
-[![Quality Gate Status](https://sonarqube.ujar.org/api/project_badges/measure?project=ujar-org%3Abasics-amqp-producing-hello&metric=alert_status&token=687ebe26a096bdb14718ce8fb30c55534ddc6d0f)](https://sonarqube.ujar.org/dashboard?id=ujar-org%3Abasics-amqp-producing-hello)
+[![Build Status](https://drone.c2a2.com/api/badges/ujar-org/basics-amqp-producing-hello/status.svg?ref=refs/heads/main)](https://drone.c2a2.com/ujar-org/basics-amqp-producing-hello)
+[![Quality Gate Status](https://sonarqube.c2a2.com/api/project_badges/measure?project=ujar-org%3Abasics-amqp-producing-hello&metric=alert_status&token=687ebe26a096bdb14718ce8fb30c55534ddc6d0f)](https://sonarqube.c2a2.com/dashboard?id=ujar-org%3Abasics-amqp-producing-hello)
 
 Minimal Spring Boot based sample of AMQP producer app.
 
@@ -46,7 +46,7 @@ java -jar target/*.jar
 The code follows [Google Code Conventions](https://google.github.io/styleguide/javaguide.html). Code
 quality is measured by:
 
-- [Sonarqube](https://sonarqube.ujar.org/dashboard?id=ujar-org%3Abasics-amqp-producing-hello)
+- [Sonarqube](https://sonarqube.c2a2.com/dashboard?id=ujar-org%3Abasics-amqp-producing-hello)
 - [PMD](https://pmd.github.io/)
 - [CheckStyle](https://checkstyle.sourceforge.io/)
 - [SpotBugs](https://spotbugs.github.io/)
