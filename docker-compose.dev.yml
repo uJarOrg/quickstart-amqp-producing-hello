@@ -1,6 +1,6 @@
 # This configuration is intended for development purpose
-version: '3.8'
-services:
+version : '3.8'
+services :
   rabbitmq :
     container_name : bs-msg-amqp-dev-producing-hello-rabbitmq
     image : rabbitmq:3.9-management-alpine
