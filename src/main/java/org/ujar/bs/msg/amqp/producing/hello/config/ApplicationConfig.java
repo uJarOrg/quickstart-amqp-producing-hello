@@ -1,4 +1,4 @@
-package org.ujar.basics.amqp.producing.hello.config;
+package org.ujar.bs.msg.amqp.producing.hello.config;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
