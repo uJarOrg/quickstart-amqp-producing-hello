@@ -1,4 +1,4 @@
-package org.ujar.basics.amqp.producing.hello.model;
+package org.ujar.bs.msg.amqp.producing.hello.model;
 
 import java.io.Serial;
 import java.io.Serializable;

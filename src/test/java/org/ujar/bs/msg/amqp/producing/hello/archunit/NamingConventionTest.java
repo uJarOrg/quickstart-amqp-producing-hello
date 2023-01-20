@@ -1,4 +1,4 @@
-package org.ujar.basics.amqp.producing.hello.archunit;
+package org.ujar.bs.msg.amqp.producing.hello.archunit;
 
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.classes;
 
@@ -7,7 +7,7 @@ import com.tngtech.archunit.junit.ArchTest;
 import com.tngtech.archunit.lang.ArchRule;
 import org.springframework.context.annotation.Configuration;
 
-@AnalyzeClasses(packages = "org.ujar.basics.amqp.producing.hello")
+@AnalyzeClasses(packages = "org.ujar.bs.msg.amqp.producing.hello")
 public class NamingConventionTest {
   @ArchTest
   private final ArchRule configurationShouldBeInConfigPackage =

@@ -1,11 +1,11 @@
-package org.ujar.basics.amqp.producing.hello.consumer;
+package org.ujar.bs.msg.amqp.producing.hello.consumer;
 
 import java.util.concurrent.CountDownLatch;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import org.ujar.basics.amqp.producing.hello.model.Greeting;
+import org.ujar.bs.msg.amqp.producing.hello.model.Greeting;
 
 @Component
 @RequiredArgsConstructor
