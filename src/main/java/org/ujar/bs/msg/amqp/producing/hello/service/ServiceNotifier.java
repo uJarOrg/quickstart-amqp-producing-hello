@@ -1,10 +1,10 @@
-package org.ujar.basics.amqp.producing.hello.service;
+package org.ujar.bs.msg.amqp.producing.hello.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
-import org.ujar.basics.amqp.producing.hello.model.Greeting;
-import org.ujar.basics.amqp.producing.hello.producer.GreetingMessageProducer;
+import org.ujar.bs.msg.amqp.producing.hello.model.Greeting;
+import org.ujar.bs.msg.amqp.producing.hello.producer.GreetingMessageProducer;
 
 @Service
 @RequiredArgsConstructor
