@@ -1,8 +1,5 @@
 # Hello, World! - AMQP producer app
 
-[![Build Status](http://iaolg9igjr3tghootxslfe.webrelay.io/api/badges/ujar-org/bs-msg-amqp-producing-hello/status.svg?ref=refs/heads/main)](http://iaolg9igjr3tghootxslfe.webrelay.io/ujar-org/bs-msg-amqp-producing-hello)
-[![Quality Gate Status](https://sonarqube.c2a2.com/api/project_badges/measure?project=ujar-org%3Abs-msg-amqp-producing-hello&metric=alert_status&token=687ebe26a096bdb14718ce8fb30c55534ddc6d0f)](https://sonarqube.c2a2.com/dashboard?id=ujar-org%3Abs-msg-amqp-producing-hello)
-
 Minimal Spring Boot based sample of AMQP producer app.
 
 ### Pre-Requisites to run this example locally
