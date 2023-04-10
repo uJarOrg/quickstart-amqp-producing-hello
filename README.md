@@ -1,6 +1,6 @@
 # Hello, World! - AMQP producer app
 
-Minimal Spring Boot based sample of AMQP producer app.
+Minimal Spring Boot based sample AMQP producer app.
 
 ### Pre-Requisites to run this example locally
 
