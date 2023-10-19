@@ -8,7 +8,7 @@ Minimal Spring Boot based sample AMQP producer app.
 - Clone source code to the local machine:
 
 ```
-git clone https://github.com/ujar-org/quickstart-amqp-producing-hello.git
+git clone https://github.com/uJarOrg/quickstart-amqp-producing-hello.git
 
 cd quickstart-amqp-producing-hello
 ```
