@@ -1,11 +1,11 @@
-package org.ujar.amqpproducinghello.producer;
+package dev.knowhowto.amqpproducinghello.producer;
 
+import dev.knowhowto.amqpproducinghello.config.AmqpQueuesProperties;
+import dev.knowhowto.amqpproducinghello.model.Greeting;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;
-import org.ujar.amqpproducinghello.config.AmqpQueuesProperties;
-import org.ujar.amqpproducinghello.model.Greeting;
 
 @Component
 @Slf4j
