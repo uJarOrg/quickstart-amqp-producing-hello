@@ -1,4 +1,4 @@
-package org.ujar.amqpproducinghello;
+package dev.knowhowto.amqpproducinghello;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
