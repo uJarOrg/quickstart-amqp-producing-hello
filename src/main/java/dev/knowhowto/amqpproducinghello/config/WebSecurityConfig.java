@@ -1,4 +1,4 @@
-package org.ujar.amqpproducinghello.config;
+package dev.knowhowto.amqpproducinghello.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

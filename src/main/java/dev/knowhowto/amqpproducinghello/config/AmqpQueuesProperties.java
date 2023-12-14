@@ -1,10 +1,10 @@
-package org.ujar.amqpproducinghello.config;
+package dev.knowhowto.amqpproducinghello.config;
 
 import jakarta.validation.constraints.NotNull;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "ujar.amqp.queues")
+@ConfigurationProperties(prefix = "iqkv.amqp.queues")
 public record AmqpQueuesProperties(@NotNull String greeterExchange, @NotNull String greeterQueue) {
 
   public String getGreeterExchange() {
