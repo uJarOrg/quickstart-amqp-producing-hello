@@ -1,4 +1,4 @@
-package dev.knowhowto.amqpproducinghello.config;
+package com.iqkv.incubator.quickstart.amqpproducinghello.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

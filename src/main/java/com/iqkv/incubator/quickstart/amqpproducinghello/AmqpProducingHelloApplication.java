@@ -1,4 +1,4 @@
-package dev.knowhowto.amqpproducinghello;
+package com.iqkv.incubator.quickstart.amqpproducinghello;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

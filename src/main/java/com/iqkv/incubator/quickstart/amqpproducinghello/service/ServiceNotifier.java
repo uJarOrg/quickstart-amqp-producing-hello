@@ -1,7 +1,7 @@
-package dev.knowhowto.amqpproducinghello.service;
+package com.iqkv.incubator.quickstart.amqpproducinghello.service;
 
-import dev.knowhowto.amqpproducinghello.model.Greeting;
-import dev.knowhowto.amqpproducinghello.producer.GreetingMessageProducer;
+import com.iqkv.incubator.quickstart.amqpproducinghello.model.Greeting;
+import com.iqkv.incubator.quickstart.amqpproducinghello.producer.GreetingMessageProducer;
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;

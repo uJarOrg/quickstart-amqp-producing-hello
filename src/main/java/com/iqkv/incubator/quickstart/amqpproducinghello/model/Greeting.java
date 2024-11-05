@@ -1,4 +1,4 @@
-package dev.knowhowto.amqpproducinghello.model;
+package com.iqkv.incubator.quickstart.amqpproducinghello.model;
 
 import java.io.Serial;
 import java.io.Serializable;
