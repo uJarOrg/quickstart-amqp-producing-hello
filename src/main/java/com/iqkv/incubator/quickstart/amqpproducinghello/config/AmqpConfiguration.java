@@ -1,5 +1,7 @@
 package com.iqkv.incubator.quickstart.amqpproducinghello.config;
 
+import java.util.List;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.amqp.core.AmqpAdmin;
 import org.springframework.amqp.core.BindingBuilder;
@@ -9,6 +11,7 @@ import org.springframework.amqp.core.TopicExchange;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitAdmin;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.amqp.support.converter.SimpleMessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -48,5 +51,12 @@ class AmqpConfiguration {
             .bind(greeterQueue)
             .to(greeterTopicExchange).with("greeting")
     );
+  }
+
+  @Bean
+  public SimpleMessageConverter converter() {
+    var converter = new SimpleMessageConverter();
+    converter.setAllowedListPatterns(List.of("com.iqkv.incubator.quickstart.amqpproducinghello.*"));
+    return converter;
   }
 }
