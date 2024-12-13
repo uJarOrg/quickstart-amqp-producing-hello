@@ -6,6 +6,10 @@ import org.springframework.boot.context.metrics.buffering.BufferingApplicationSt
 
 @SpringBootApplication
 public class AmqpProducingHelloApplication {
+  static {
+    System.setProperty("spring.amqp.deserialization.trust.all", "true");
+  }
+
   public static void main(String[] args) {
     SpringApplication springApplication = new SpringApplication(AmqpProducingHelloApplication.class);
     springApplication.setApplicationStartup(new BufferingApplicationStartup(2048));
