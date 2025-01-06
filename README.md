@@ -1,8 +1,10 @@
-# Hello, World! - AMQP producer app
+# 🚀 Hello, World! - AMQP producer app
 
 Minimal Spring Boot based sample AMQP producer app.
 
-### Pre-Requisites to run this example locally
+## 🛠️ Installation
+
+Pre-Requisites to run this example locally
 
 - Setup git command line tool (https://help.github.com/articles/set-up-git)
 - Clone source code to the local machine:
